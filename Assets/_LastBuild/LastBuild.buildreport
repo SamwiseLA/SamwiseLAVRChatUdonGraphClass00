@@ -1,0 +1,1763 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!382020655 &-6833705381272079257
+PluginBuildInfo:
+  m_RuntimePlugins:
+  - VRC.Udon.VM
+  - VRC.SDK3.Dynamics.PhysBone
+  - VRC.Udon.Security
+  - VRCEconomy
+  - xrmanifest
+  - libvrc_image_loader
+  - YamlDotNet
+  - VRCSDK3
+  - nunit.framework
+  - VRCCore-Editor
+  - Serilog.Sinks.File
+  - VRC.SDK3.Dynamics.Contact
+  - System.Collections.Immutable
+  - VRC.Udon.Wrapper
+  - Unity.Burst.Unsafe
+  - SemanticVersioning
+  - librsync.net
+  - System.Runtime.CompilerServices.Unsafe
+  - Newtonsoft.Json
+  - Unity.Collections.LowLevel.ILSupport
+  - VRC.Udon.Common
+  - VRC.Udon.VRCWrapperModules
+  - VRC.Dynamics
+  - OculusUnity
+  - VRCSDKBase
+  - VRC.Utility
+  - VRC.Udon.ClientBindings
+  - libOculusXRPlugin
+  - SDKBase-Legacy
+  - Blake2Sharp
+  - System.Text.Encoding.CodePages
+  - OVRPlugin
+  - Serilog
+  - Collections.Pooled
+  - libAudioPluginOculusSpatializer
+  - AudioPluginOculusSpatializer
+  m_EditorPlugins:
+  - VRC.Udon.VRCGraphModules
+  - VRC.Udon.EditorBindings
+  - 0Harmony
+  - VRC.SDK3.Dynamics.Contact.Editor
+  - libvrc_shader_compiler_plugin
+  - Mono.Cecil.Pdb
+  - JetBrains.Rider.PathLocator
+  - log4netPlastic
+  - vrc_shader_compiler_plugin
+  - VRCSDKBase-Editor
+  - Unity.Plastic.Newtonsoft.Json
+  - OculusXRPlugin
+  - Microsoft.CodeAnalysis.CSharp
+  - vrc_image_loader
+  - VRC.Udon.VRCTypeResolverModules
+  - Unity.Plastic.Antlr3.Runtime
+  - VRCEconomy-Editor
+  - Ionic.Zip.Unity
+  - ICSharpCode.SharpZipLib
+  - zlib64Plastic
+  - AppleEventIntegration
+  - Mono.Cecil
+  - GLTFSerialization
+  - VRC.Udon.Graph
+  - SketchfabPlugin
+  - unityplastic
+  - Unity.Burst.Cecil.Pdb
+  - Mono.Cecil.Rocks
+  - Microsoft.CodeAnalysis
+  - portmidi
+  - VRC.Udon.Compiler
+  - System.Reflection.Metadata
+  - VRCSDK3-Editor
+  - Mono.Cecil.Mdb
+  - Serilog.Sinks.Unity3D
+  - Unity.Burst.Cecil.Mdb
+  - liblz4Plastic
+  - VRC.SDK3.Dynamics.PhysBone.Editor
+  - Unity.Burst.Cecil
+  - Unity.Burst.Cecil.Rocks
+  - lz4x64Plastic
+  - vpm-core-lib
+  - VRC.Udon.UAssembly
+--- !u!641289076 &-5265518607771818822
+AudioBuildInfo:
+  m_IsAudioDisabled: 0
+  m_AudioClipCount: 2
+  m_AudioMixerCount: 0
+--- !u!668709126 &-2742277770635666732
+BuiltAssetBundleInfoSet:
+  bundleInfos:
+  - bundleName: scene-android-emptyvrcproject00scene.vrcw
+    bundleArchiveFile: 3
+    packagedFileIndices: 000000000100000002000000
+  - bundleName: EmptyProject00
+    bundleArchiveFile: 6
+    packagedFileIndices: 05000000
+--- !u!1125 &1
+BuildReport:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Build AssetBundles
+  m_Summary:
+    buildStartTime:
+      serializedVersion: 2
+      ticks: 638510951856056865
+    buildGUID: 00000000000000000000000000000000
+    platformName: Android
+    platformGroupName: Android
+    subtarget: 6
+    options: 0
+    assetBundleOptions: 32
+    outputPath: C:/Users/ms/AppData/Local/Temp/DefaultCompany/EmptyProject00
+    crc: 801152901
+    totalSize: 23048925
+    totalTimeTicks: 625163773
+    totalErrors: 0
+    totalWarnings: 11
+    buildType: 2
+    buildResult: 1
+  m_Files:
+  - path: C:/Users/ms/Dropbox/vrchat/EmptyVRCProject00/scene-android-emptyvrcproject00scene.vrcw/BuildPlayer-EmptyVRCProject00Scene
+    role: Scene
+    id: 0
+    totalSize: 283048
+  - path: C:/Users/ms/Dropbox/vrchat/EmptyVRCProject00/scene-android-emptyvrcproject00scene.vrcw/BuildPlayer-EmptyVRCProject00Scene.sharedAssets
+    role: SharedAssets
+    id: 1
+    totalSize: 56736532
+  - path: C:/Users/ms/Dropbox/vrchat/EmptyVRCProject00/scene-android-emptyvrcproject00scene.vrcw/BuildPlayer-EmptyVRCProject00Scene.resource
+    role: StreamingResourceFile
+    id: 2
+    totalSize: 1409920
+  - path: C:/Users/ms/Dropbox/vrchat/EmptyVRCProject00/scene-android-emptyvrcproject00scene.vrcw
+    role: AssetBundle
+    id: 3
+    totalSize: 23044452
+  - path: C:/Users/ms/Dropbox/vrchat/EmptyVRCProject00/scene-android-emptyvrcproject00scene.vrcw.manifest
+    role: AssetBundleTextManifest
+    id: 4
+    totalSize: 3252
+  - path: C:/Users/ms/Dropbox/vrchat/EmptyVRCProject00/EmptyProject00/CAB-d8f138ace1ab1537044091fa95e1e796
+    role: ResourcesFile
+    id: 5
+    totalSize: 4248
+  - path: C:/Users/ms/Dropbox/vrchat/EmptyVRCProject00/EmptyProject00
+    role: ManifestAssetBundle
+    id: 6
+    totalSize: 1052
+  - path: C:/Users/ms/Dropbox/vrchat/EmptyVRCProject00/EmptyProject00.manifest
+    role: AssetBundleTextManifest
+    id: 7
+    totalSize: 169
+  m_BuildSteps:
+  - stepName: Build Asset Bundles
+    durationTicks: 625163773
+    depth: 0
+    messages: []
+  - stepName: Calculate asset bundles to be built
+    durationTicks: 109792
+    depth: 1
+    messages: []
+  - stepName: Prebuild Cleanup and Recompile
+    durationTicks: 33899261
+    depth: 1
+    messages: []
+  - stepName: Compile scripts
+    durationTicks: 33009684
+    depth: 2
+    messages: []
+  - stepName: Generate and validate platform script types
+    durationTicks: 691080
+    depth: 2
+    messages: []
+  - stepName: Build Scene AssetBundle(s)
+    durationTicks: 501530811
+    depth: 1
+    messages: []
+  - stepName: 'Build bundle: scene-android-emptyvrcproject00scene.vrcw'
+    durationTicks: 494162023
+    depth: 2
+    messages: []
+  - stepName: Verify Build setup
+    durationTicks: 891782
+    depth: 3
+    messages: []
+  - stepName: Prepare assets for target platform
+    durationTicks: 1012547
+    depth: 3
+    messages:
+    - type: 2
+      content: Warning! Using more than 1 pixel lights on a mobile device may decrease
+        performance severely. You can change the mobile quality settings in 'Project
+        Settings -> Quality Settings'.
+  - stepName: Prepare splash screen
+    durationTicks: 167172
+    depth: 3
+    messages:
+    - type: 3
+      content: Including Unity Splash Screen logo because 'Show Unity Logo' is enabled.
+  - stepName: Building scenes
+    durationTicks: 17484175
+    depth: 3
+    messages: []
+  - stepName: Building scene Assets/Scenes/EmptyVRCProject00Scene.unity
+    durationTicks: 17483915
+    depth: 4
+    messages: []
+  - stepName: Writing asset files
+    durationTicks: 221983116
+    depth: 3
+    messages: []
+  - stepName: Packaging assets - archive:/BuildPlayer-EmptyVRCProject00Scene/BuildPlayer-EmptyVRCProject00Scene.sharedAssets
+    durationTicks: 221784923
+    depth: 4
+    messages:
+    - type: 2
+      content: 'Shader warning in ''AudioLink/Internal/AudioLinkUI'': gradient instruction
+        used in a loop with varying iteration; partial derivatives may have undefined
+        value at line 213 (on gles3)
+
+
+        Compiling Subshader: 0, Pass: , Vertex
+        program with <no keywords>
+
+        Platform defines: SHADER_API_GLES30 SHADER_API_MOBILE
+        UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HARDWARE_TIER3
+        UNITY_LIGHTMAP_DLDR_ENCODING UNITY_NO_CUBEMAP_ARRAY UNITY_NO_DXT5nm UNITY_NO_RGBM
+        UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2
+
+        Disabled keywords:
+        UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP
+        UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2
+        UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHT_PROBE_PROXY_VOLUME
+        UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1
+        UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING
+        UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+        UNITY_VIRTUAL_TEXTURING'
+    - type: 2
+      content: 'Shader warning in ''AudioLink/Internal/AudioLinkUI'': gradient instruction
+        used in a loop with varying iteration, attempting to unroll the loop at line
+        301 (on d3d11)
+
+
+        Compiling Subshader: 0, Pass: , Fragment program
+        with <no keywords>
+
+        Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP
+        UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME
+        UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION
+        UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+
+        Disabled keywords:
+        SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE
+        UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2
+        UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING
+        UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER
+        UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION
+        UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING'
+    - type: 2
+      content: 'Shader warning in ''AudioLink/Internal/AudioLinkUI'': gradient instruction
+        used in a loop with varying iteration, attempting to unroll the loop at line
+        301 (on gles3)
+
+
+        Compiling Subshader: 0, Pass: , Vertex program with
+        <no keywords>
+
+        Platform defines: SHADER_API_GLES30 SHADER_API_MOBILE
+        UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HARDWARE_TIER3
+        UNITY_LIGHTMAP_DLDR_ENCODING UNITY_NO_CUBEMAP_ARRAY UNITY_NO_DXT5nm UNITY_NO_RGBM
+        UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2
+
+        Disabled keywords:
+        UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP
+        UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2
+        UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHT_PROBE_PROXY_VOLUME
+        UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1
+        UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING
+        UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+        UNITY_VIRTUAL_TEXTURING'
+    - type: 2
+      content: 'Shader warning in ''AudioLink/Internal/AudioLinkUI'': ''i'': loop
+        control variable conflicts with a previous declaration in the outer scope;
+        most recent declaration will be used at line 327 (on gles3)
+
+
+        Compiling
+        Subshader: 0, Pass: , Vertex program with <no keywords>
+
+        Platform
+        defines: SHADER_API_GLES30 SHADER_API_MOBILE UNITY_ENABLE_REFLECTION_BUFFERS
+        UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING
+        UNITY_NO_CUBEMAP_ARRAY UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS
+        UNITY_PBS_USE_BRDF2
+
+        Disabled keywords: UNITY_ASTC_NORMALMAP_ENCODING
+        UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS
+        UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHTMAP_RGBM_ENCODING
+        UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_FULL_STANDARD_SHADER
+        UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION
+        UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL
+        UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING'
+    - type: 2
+      content: 'Shader warning in ''AudioLink/Internal/AudioLinkUI'': ''i'': loop
+        control variable conflicts with a previous declaration in the outer scope;
+        most recent declaration will be used at line 329 (on d3d11)
+
+
+        Compiling
+        Subshader: 0, Pass: , Vertex program with STEREO_INSTANCING_ON
+
+        Platform
+        defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS
+        UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1
+        UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+
+        Disabled
+        keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA
+        UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS
+        UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING
+        UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm
+        UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2
+        UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL
+        UNITY_VIRTUAL_TEXTURING'
+    - type: 2
+      content: 'Shader warning in ''AudioLink/Internal/AudioLinkUI'': gradient instruction
+        used in a loop with varying iteration, attempting to unroll the loop at line
+        348 (on d3d11)
+
+
+        Compiling Subshader: 0, Pass: , Fragment program
+        with <no keywords>
+
+        Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP
+        UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME
+        UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION
+        UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+
+        Disabled keywords:
+        SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE
+        UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2
+        UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING
+        UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER
+        UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION
+        UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING'
+    - type: 2
+      content: 'Shader warning in ''AudioLink/Internal/AudioLinkUI'': gradient instruction
+        used in a loop with varying iteration; partial derivatives may have undefined
+        value at line 348 (on gles3)
+
+
+        Compiling Subshader: 0, Pass: , Vertex
+        program with <no keywords>
+
+        Platform defines: SHADER_API_GLES30 SHADER_API_MOBILE
+        UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HARDWARE_TIER3
+        UNITY_LIGHTMAP_DLDR_ENCODING UNITY_NO_CUBEMAP_ARRAY UNITY_NO_DXT5nm UNITY_NO_RGBM
+        UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2
+
+        Disabled keywords:
+        UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP
+        UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2
+        UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHT_PROBE_PROXY_VOLUME
+        UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1
+        UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING
+        UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+        UNITY_VIRTUAL_TEXTURING'
+    - type: 2
+      content: 'Shader warning in ''AudioLink/Internal/AudioLinkUI'': gradient instruction
+        used in a loop with varying iteration; partial derivatives may have undefined
+        value at line 352 (on gles3)
+
+
+        Compiling Subshader: 0, Pass: , Vertex
+        program with <no keywords>
+
+        Platform defines: SHADER_API_GLES30 SHADER_API_MOBILE
+        UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HARDWARE_TIER3
+        UNITY_LIGHTMAP_DLDR_ENCODING UNITY_NO_CUBEMAP_ARRAY UNITY_NO_DXT5nm UNITY_NO_RGBM
+        UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2
+
+        Disabled keywords:
+        UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP
+        UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2
+        UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHT_PROBE_PROXY_VOLUME
+        UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1
+        UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING
+        UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+        UNITY_VIRTUAL_TEXTURING'
+    - type: 2
+      content: 'Shader warning in ''AudioLink/Internal/AudioLinkUI'': gradient instruction
+        used in a loop with varying iteration; partial derivatives may have undefined
+        value at line 359 (on gles3)
+
+
+        Compiling Subshader: 0, Pass: , Vertex
+        program with <no keywords>
+
+        Platform defines: SHADER_API_GLES30 SHADER_API_MOBILE
+        UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HARDWARE_TIER3
+        UNITY_LIGHTMAP_DLDR_ENCODING UNITY_NO_CUBEMAP_ARRAY UNITY_NO_DXT5nm UNITY_NO_RGBM
+        UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2
+
+        Disabled keywords:
+        UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP
+        UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2
+        UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHT_PROBE_PROXY_VOLUME
+        UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1
+        UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING
+        UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+        UNITY_VIRTUAL_TEXTURING'
+    - type: 2
+      content: 'Shader warning in ''AudioLink/Internal/AudioLinkUI'': gradient instruction
+        used in a loop with varying iteration; partial derivatives may have undefined
+        value at line 367 (on gles3)
+
+
+        Compiling Subshader: 0, Pass: , Vertex
+        program with <no keywords>
+
+        Platform defines: SHADER_API_GLES30 SHADER_API_MOBILE
+        UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HARDWARE_TIER3
+        UNITY_LIGHTMAP_DLDR_ENCODING UNITY_NO_CUBEMAP_ARRAY UNITY_NO_DXT5nm UNITY_NO_RGBM
+        UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2
+
+        Disabled keywords:
+        UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP
+        UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2
+        UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHT_PROBE_PROXY_VOLUME
+        UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1
+        UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING
+        UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+        UNITY_VIRTUAL_TEXTURING'
+  - stepName: Creating compressed player package
+    durationTicks: 218906964
+    depth: 3
+    messages: []
+  - stepName: Postprocess built player
+    durationTicks: 1034108
+    depth: 3
+    messages: []
+  m_Appendices:
+  - {fileID: -2742277770635666732}
+  - {fileID: 1188343619972518327}
+  - {fileID: 7973581836757939542}
+  - {fileID: -6833705381272079257}
+  - {fileID: -5265518607771818822}
+  - {fileID: 2477007587567824924}
+  - {fileID: 2614180858299582904}
+--- !u!1126 &1188343619972518327
+PackedAssets:
+  m_ShortPath: BuildPlayer-EmptyVRCProject00Scene.sharedAssets
+  m_Overhead: 146877
+  m_Contents:
+  - fileID: 1
+    classID: 150
+    packedSize: 97
+    offset: 148232
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 2
+    classID: 142
+    packedSize: 172
+    offset: 148336
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 3
+    classID: 21
+    packedSize: 1080
+    offset: 148512
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 4
+    classID: 21
+    packedSize: 268
+    offset: 149592
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 5
+    classID: 21
+    packedSize: 1332
+    offset: 149864
+    sourceAssetGUID: a8048158457294e4b8b3145c3e024780
+    buildTimeAssetPath: Assets/Import/materials/belt_m_3.mat
+  - fileID: 6
+    classID: 21
+    packedSize: 1336
+    offset: 151200
+    sourceAssetGUID: fbc114a15d1ca65418bd2441ec039b44
+    buildTimeAssetPath: Assets/Import/materials/boots_m_2.mat
+  - fileID: 7
+    classID: 21
+    packedSize: 1340
+    offset: 152536
+    sourceAssetGUID: e40d042599ae84740919eda3aa9cbe82
+    buildTimeAssetPath: Assets/Import/materials/coat_m_0_altered.mat
+  - fileID: 8
+    classID: 21
+    packedSize: 1336
+    offset: 153880
+    sourceAssetGUID: 6c681adcb8034cb47a588a45d235e3b0
+    buildTimeAssetPath: Assets/Import/materials/pants_m_1.mat
+  - fileID: 9
+    classID: 21
+    packedSize: 1332
+    offset: 155216
+    sourceAssetGUID: 9ec8267cc3d986d4c8e846b605a9dd31
+    buildTimeAssetPath: Assets/Import/materials/skin_m_4.mat
+  - fileID: 10
+    classID: 21
+    packedSize: 916
+    offset: 156552
+    sourceAssetGUID: 0e85b774f51d9e94f9ead11c0d02840e
+    buildTimeAssetPath: Assets/Materials/GreenTeleportEmissive.mat
+  - fileID: 11
+    classID: 21
+    packedSize: 912
+    offset: 157472
+    sourceAssetGUID: 511f09ccd6dea88419f5df089b105e42
+    buildTimeAssetPath: Assets/Materials/RedTeleportEmissive.mat
+  - fileID: 12
+    classID: 21
+    packedSize: 1016
+    offset: 158384
+    sourceAssetGUID: c3212415c1cd8e543b2e9197a8e5b008
+    buildTimeAssetPath: Assets/Materials/WaterTeleportTransparent.mat
+  - fileID: 13
+    classID: 21
+    packedSize: 972
+    offset: 159400
+    sourceAssetGUID: 1e48579e9316d4644a0d3674048c25a1
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/FlowersM_flowers_36.mat
+  - fileID: 14
+    classID: 21
+    packedSize: 908
+    offset: 160376
+    sourceAssetGUID: b9733d30e91aa314ab2ab45ab992b99f
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/M_3props_1.mat
+  - fileID: 15
+    classID: 21
+    packedSize: 908
+    offset: 161288
+    sourceAssetGUID: 6229d98fa15ce084888be1463d3691ff
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/M_bandsaw_13.mat
+  - fileID: 16
+    classID: 21
+    packedSize: 908
+    offset: 162200
+    sourceAssetGUID: 80ed547dbc1d4224c97b47935223f22d
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/M_base_32.mat
+  - fileID: 17
+    classID: 21
+    packedSize: 960
+    offset: 163112
+    sourceAssetGUID: 23a961b86f0ae614b98e889a1cc8c039
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/M_car_12.mat
+  - fileID: 18
+    classID: 21
+    packedSize: 916
+    offset: 164072
+    sourceAssetGUID: 8d21753f517cc4248b8e1112779fbd6f
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/M_chair_posters_16.mat
+  - fileID: 19
+    classID: 21
+    packedSize: 908
+    offset: 164992
+    sourceAssetGUID: 4e449be0383c3a04fab36b1c2ce039ed
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/M_chimney_27.mat
+  - fileID: 20
+    classID: 21
+    packedSize: 912
+    offset: 165904
+    sourceAssetGUID: 49f094dd17e017e489e1571a685077e0
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/M_desk_door_23.mat
+  - fileID: 21
+    classID: 21
+    packedSize: 924
+    offset: 166816
+    sourceAssetGUID: a9d1247712494e84f9cb177fd575dd33
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/M_desk_door_23_SamwiseInside.mat
+  - fileID: 22
+    classID: 21
+    packedSize: 964
+    offset: 167744
+    sourceAssetGUID: a1e0231d740e7174cb44557dc21bf255
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/M_dirt_10.mat
+  - fileID: 23
+    classID: 21
+    packedSize: 920
+    offset: 168712
+    sourceAssetGUID: b4cc2a413c16eed42b2567e9ce85d2dc
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/M_dog_house_trashcan_9.mat
+  - fileID: 24
+    classID: 21
+    packedSize: 908
+    offset: 169632
+    sourceAssetGUID: adea39ab70c421c459a3b8fd33e0c2be
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/M_fence_17.mat
+  - fileID: 25
+    classID: 21
+    packedSize: 916
+    offset: 170544
+    sourceAssetGUID: e8cbd2fc1fde90f4fbb0674029d87d06
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/M_gazeebo_stone_26.mat
+  - fileID: 26
+    classID: 21
+    packedSize: 908
+    offset: 171464
+    sourceAssetGUID: 282cf605cff66f64aa92561d4c31e973
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/M_grass_31.mat
+  - fileID: 27
+    classID: 21
+    packedSize: 908
+    offset: 172376
+    sourceAssetGUID: 2e0ff564bac83b943944cec8a8daf2b4
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/M_ground_33.mat
+  - fileID: 28
+    classID: 21
+    packedSize: 916
+    offset: 173288
+    sourceAssetGUID: d00b2507183d72942b0c42ab6d981a6c
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/M_house_concrete_29.mat
+  - fileID: 29
+    classID: 21
+    packedSize: 912
+    offset: 174208
+    sourceAssetGUID: 78139d640bd702748b36e860d69c158d
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/M_house_wood_24.mat
+  - fileID: 30
+    classID: 21
+    packedSize: 920
+    offset: 175120
+    sourceAssetGUID: 43e8bfa7241bb1b42a124485a0c3f503
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/M_house_wood_roof1_25.mat
+  - fileID: 31
+    classID: 21
+    packedSize: 964
+    offset: 176040
+    sourceAssetGUID: 6097390e9f5329a4d9182a06ce36d7dd
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/M_lamps_6.mat
+  - fileID: 32
+    classID: 21
+    packedSize: 908
+    offset: 177008
+    sourceAssetGUID: 10d727c283b0a594c944b2f5e7aaba90
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/M_path_28.mat
+  - fileID: 33
+    classID: 21
+    packedSize: 908
+    offset: 177920
+    sourceAssetGUID: 57d956efdecb9a44dbef722ebff9f440
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/M_rocks_14.mat
+  - fileID: 34
+    classID: 21
+    packedSize: 908
+    offset: 178832
+    sourceAssetGUID: 800407de22c650648a8fb2af747069bf
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/M_roof_22.mat
+  - fileID: 35
+    classID: 21
+    packedSize: 908
+    offset: 179744
+    sourceAssetGUID: 3ea31c0ef995d6042bd9b6defb93ac4a
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/M_shack_20.mat
+  - fileID: 36
+    classID: 21
+    packedSize: 916
+    offset: 180656
+    sourceAssetGUID: de51c4f2b98c73c4a83dd3cc696bb2e9
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/M_unique_house_18.mat
+  - fileID: 37
+    classID: 21
+    packedSize: 908
+    offset: 181576
+    sourceAssetGUID: 650c4a6bc8709a24abf967204a23a843
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/M_veranda_34.mat
+  - fileID: 38
+    classID: 21
+    packedSize: 916
+    offset: 182488
+    sourceAssetGUID: 896edfb7bf2d8e540a6cbdf4f3f9072e
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/M_veranda_34_Samwise.mat
+  - fileID: 39
+    classID: 21
+    packedSize: 920
+    offset: 183408
+    sourceAssetGUID: eba9a599ad59b4c4089a27835ce31df8
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/M_veranda_tileable_15.mat
+  - fileID: 40
+    classID: 21
+    packedSize: 964
+    offset: 184328
+    sourceAssetGUID: 40541771cd06f0e4db0b04fdbb336e14
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/M_water_30.mat
+  - fileID: 41
+    classID: 21
+    packedSize: 908
+    offset: 185296
+    sourceAssetGUID: 6c1434f95d3112f42821ae23fb2ef9b2
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/M_windows_8.mat
+  - fileID: 42
+    classID: 21
+    packedSize: 908
+    offset: 186208
+    sourceAssetGUID: 949f3216316712e4388201b90d7dda9c
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/dogM_dog_2.mat
+  - fileID: 43
+    classID: 21
+    packedSize: 912
+    offset: 187120
+    sourceAssetGUID: b10dfc474a4ec2c46ab2d2f37d95d953
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/gazebo3M_bbq_5.mat
+  - fileID: 44
+    classID: 21
+    packedSize: 920
+    offset: 188032
+    sourceAssetGUID: 73919261b7289034381354585fdbf101
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/gazebo3M_bench_table_19.mat
+  - fileID: 45
+    classID: 21
+    packedSize: 916
+    offset: 188952
+    sourceAssetGUID: ebb19af0909da44439db85b30d76d586
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/gazebo3lambert3_35.mat
+  - fileID: 46
+    classID: 21
+    packedSize: 920
+    offset: 189872
+    sourceAssetGUID: ec67f048a0846de44b1e42f9ad1c6a8e
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/groundplainM_bridge_21.mat
+  - fileID: 47
+    classID: 21
+    packedSize: 924
+    offset: 190792
+    sourceAssetGUID: e69058a83dcd2f948a95a8e618eb19a0
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/maple_treeM_maple_bark_11.mat
+  - fileID: 48
+    classID: 21
+    packedSize: 980
+    offset: 191720
+    sourceAssetGUID: bd42b0bd32cfcd34b8302bd43d0d72cd
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/maple_treeM_maple_leaves_0.mat
+  - fileID: 49
+    classID: 21
+    packedSize: 916
+    offset: 192704
+    sourceAssetGUID: dc2d2aea53838ee42b4e2397f4932a0c
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/standardSurface1_3.mat
+  - fileID: 50
+    classID: 21
+    packedSize: 928
+    offset: 193624
+    sourceAssetGUID: d6be3a4707af9fe4e98f8718af0cd9f9
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/tree_lab_classM_birch_stable_7.mat
+  - fileID: 51
+    classID: 21
+    packedSize: 976
+    offset: 194552
+    sourceAssetGUID: 8a8a8439dd31b61469911c902399a2a3
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/materials/tree_lab_classleaves_4.mat
+  - fileID: 52
+    classID: 21
+    packedSize: 868
+    offset: 195528
+    sourceAssetGUID: 0f19dab2300578b4d87b7662da0e74a4
+    buildTimeAssetPath: Packages/com.llealloo.audiolink/Runtime/Materials/mat_AudioLinkControllerScreenMaterial.mat
+  - fileID: 53
+    classID: 21
+    packedSize: 85480
+    offset: 196400
+    sourceAssetGUID: 8429b93c9834c424ba855fb4288c90aa
+    buildTimeAssetPath: Packages/com.llealloo.audiolink/Runtime/Materials/mat_AudioLinkLogo.mat
+  - fileID: 54
+    classID: 21
+    packedSize: 712
+    offset: 281880
+    sourceAssetGUID: e1a6e59d5b7a5f041acf4da9a46e2577
+    buildTimeAssetPath: Packages/com.llealloo.audiolink/Runtime/Materials/mat_ControllerMaterial.mat
+  - fileID: 55
+    classID: 21
+    packedSize: 148
+    offset: 282592
+    sourceAssetGUID: e3265ab4bf004d28a9537516768c1c75
+    buildTimeAssetPath: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  - fileID: 56
+    classID: 21
+    packedSize: 2016
+    offset: 282744
+    sourceAssetGUID: 2e498d1c8094910479dc3e1b768306a4
+    buildTimeAssetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+      SDF - Fallback.asset
+  - fileID: 57
+    classID: 21
+    packedSize: 956
+    offset: 284760
+    sourceAssetGUID: 8f586378b4e144a9851e7b34d9b748ee
+    buildTimeAssetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+      SDF.asset
+  - fileID: 58
+    classID: 28
+    packedSize: 626432
+    offset: 285720
+    sourceAssetGUID: 00d82645623720947999058ef82a5308
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/textures/M_unique_house_baseColor_17.png
+  - fileID: 59
+    classID: 28
+    packedSize: 626440
+    offset: 912152
+    sourceAssetGUID: 03dd9c1abc47c524b9fa6778c69aad53
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/textures/gazebo3M_bench_table_baseColor_18.png
+  - fileID: 60
+    classID: 28
+    packedSize: 2497844
+    offset: 1538592
+    sourceAssetGUID: 04238b38e70e93e4083a5e3779b3a7da
+    buildTimeAssetPath: Assets/Import/textures/pants_m_normal_5.png
+  - fileID: 61
+    classID: 28
+    packedSize: 626424
+    offset: 4036440
+    sourceAssetGUID: 0b6075105eb59a94298eef04476a1fdb
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/textures/M_car_baseColor_11.png
+  - fileID: 62
+    classID: 28
+    packedSize: 2497844
+    offset: 4662864
+    sourceAssetGUID: 14acffa023aafb243a4cfe417d5eb202
+    buildTimeAssetPath: Assets/Import/textures/belt_m_normal_11.png
+  - fileID: 63
+    classID: 28
+    packedSize: 158572
+    offset: 7160712
+    sourceAssetGUID: 15f1a9d0ec1888740a4e2c57291cabf4
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/textures/M_veranda_baseColor_32.png
+  - fileID: 64
+    classID: 28
+    packedSize: 158576
+    offset: 7319288
+    sourceAssetGUID: 1c2ab0f33c0518149a7dbeeccd95ae1b
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/textures/M_house_wood_baseColor_23.png
+  - fileID: 65
+    classID: 28
+    packedSize: 79832
+    offset: 7477864
+    sourceAssetGUID: 23280ea9fd4b9b6409a3dd9adba361bf
+    buildTimeAssetPath: Assets/Textures/water-1057484_640.jpg
+  - fileID: 66
+    classID: 28
+    packedSize: 2497844
+    offset: 7557696
+    sourceAssetGUID: 2b36625e45ba3404799d8956fc22b848
+    buildTimeAssetPath: Assets/Import/textures/boots_m_normal_8.png
+  - fileID: 67
+    classID: 28
+    packedSize: 158580
+    offset: 10055544
+    sourceAssetGUID: 2e6fe94701e02d6488a1f6883526515f
+    buildTimeAssetPath: Packages/com.llealloo.audiolink/Runtime/Resources/tex_ALController_tablet_MaskMap.png
+  - fileID: 68
+    classID: 28
+    packedSize: 158568
+    offset: 10214128
+    sourceAssetGUID: 2fe5c9183b949f34e95d1775dfd5141e
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/textures/M_grass_baseColor_30.png
+  - fileID: 69
+    classID: 28
+    packedSize: 626424
+    offset: 10372696
+    sourceAssetGUID: 353db980e5ec0e44f8f01a6975553186
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/textures/M_shack_baseColor_19.png
+  - fileID: 70
+    classID: 28
+    packedSize: 2497848
+    offset: 10999120
+    sourceAssetGUID: 443fd913d247d5449a641fc01723c7b0
+    buildTimeAssetPath: Assets/Import/textures/pants_m_baseColor_3.png
+  - fileID: 71
+    classID: 28
+    packedSize: 158568
+    offset: 13496968
+    sourceAssetGUID: 48b88ccad875cce4c99c6448305eaf4d
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/textures/M_path_baseColor_27.png
+  - fileID: 72
+    classID: 28
+    packedSize: 626428
+    offset: 13655536
+    sourceAssetGUID: 497912ea8450a7e4fb108872e610bdae
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/textures/M_bandsaw_baseColor_12.png
+  - fileID: 73
+    classID: 28
+    packedSize: 2497848
+    offset: 14281968
+    sourceAssetGUID: 53c2ca3db692c3a47aa5437c7f86a094
+    buildTimeAssetPath: Assets/Import/textures/skin_m_baseColor_12.png
+  - fileID: 74
+    classID: 28
+    packedSize: 158580
+    offset: 16779816
+    sourceAssetGUID: 585440580eaf1904fa3d0e740258c628
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/textures/groundplainM_bridge_baseColor_20.png
+  - fileID: 75
+    classID: 28
+    packedSize: 158580
+    offset: 16938400
+    sourceAssetGUID: 6700710b40ff922489f8ad2d33490b3e
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/textures/M_veranda_tileable_baseColor_14.png
+  - fileID: 76
+    classID: 28
+    packedSize: 626440
+    offset: 17096984
+    sourceAssetGUID: 6abc684a10febe54abf15befc703cde0
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/textures/maple_treeM_maple_leaves_baseColor_0.png
+  - fileID: 77
+    classID: 28
+    packedSize: 2497848
+    offset: 17723424
+    sourceAssetGUID: 6c81ae25169297543bbefce9be961568
+    buildTimeAssetPath: Assets/Import/textures/boots_m_baseColor_6.png
+  - fileID: 78
+    classID: 28
+    packedSize: 626424
+    offset: 20221272
+    sourceAssetGUID: 6f9625e3a259d414db8118e531440acc
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/textures/M_3props_baseColor_1.png
+  - fileID: 79
+    classID: 28
+    packedSize: 2497864
+    offset: 20847696
+    sourceAssetGUID: 724ffe3bb152eee4a9f93e3321c350cb
+    buildTimeAssetPath: Assets/Import/textures/belt_m_metallicRoughness_10_metal.png
+  - fileID: 80
+    classID: 28
+    packedSize: 1398260
+    offset: 23345560
+    sourceAssetGUID: 725c7650202758c4d928893f6dd17dc1
+    buildTimeAssetPath: Packages/com.llealloo.audiolink/Runtime/Resources/tex_PowerIcon.png
+  - fileID: 81
+    classID: 28
+    packedSize: 626428
+    offset: 24743824
+    sourceAssetGUID: 72d7c876c60288a45a810239d433872a
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/textures/gazebo3M_bbq_baseColor_4.png
+  - fileID: 82
+    classID: 28
+    packedSize: 158568
+    offset: 25370256
+    sourceAssetGUID: 778819e5a7e92a74b91733dc60dc913a
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/textures/M_water_baseColor_29.png
+  - fileID: 83
+    classID: 28
+    packedSize: 158580
+    offset: 25528824
+    sourceAssetGUID: 790eab3979c00cb4eb54883275ad4d53
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/textures/M_house_concrete_baseColor_28.png
+  - fileID: 84
+    classID: 28
+    packedSize: 626436
+    offset: 25687408
+    sourceAssetGUID: 7c875702af090fa40af8ddee5cc415a3
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/textures/FlowersM_flowers_baseColor_34.png
+  - fileID: 85
+    classID: 28
+    packedSize: 2497864
+    offset: 26313848
+    sourceAssetGUID: 85abb9646d134f8409bc5ef6eb96b8d4
+    buildTimeAssetPath: Assets/Import/textures/skin_m_metallicRoughness_13_metal.png
+  - fileID: 86
+    classID: 28
+    packedSize: 2497864
+    offset: 28811712
+    sourceAssetGUID: 8dec73991f0b4714787d6e896c17f034
+    buildTimeAssetPath: Assets/Import/textures/pants_m_metallicRoughness_4_metal.png
+  - fileID: 87
+    classID: 28
+    packedSize: 158580
+    offset: 31309576
+    sourceAssetGUID: 8e27837f935ba2b4d9e97332d8c8c4ee
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/textures/M_house_wood_roof1_baseColor_24.png
+  - fileID: 88
+    classID: 28
+    packedSize: 158580
+    offset: 31468160
+    sourceAssetGUID: 9ae3b27f4b155604ca39814f340ea896
+    buildTimeAssetPath: Packages/com.llealloo.audiolink/Runtime/Resources/tex_ALController_tablet_BaseMap.png
+  - fileID: 89
+    classID: 28
+    packedSize: 79832
+    offset: 31626744
+    sourceAssetGUID: 9bd99bce32f4c7e41bf16fbd53106c48
+    buildTimeAssetPath: Assets/Textures/frosted-glass-normal.jpg
+  - fileID: 90
+    classID: 28
+    packedSize: 79840
+    offset: 31706576
+    sourceAssetGUID: 9ea0d0d4e5f1e134895a8bc15386af6a
+    buildTimeAssetPath: Assets/Textures/19423371-bubble-wrap-texture.jpg
+  - fileID: 91
+    classID: 28
+    packedSize: 158568
+    offset: 31786416
+    sourceAssetGUID: a3b24606931ec5a4bb0249fa36a5bfb3
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/textures/M_dirt_baseColor_9.png
+  - fileID: 92
+    classID: 28
+    packedSize: 1398260
+    offset: 31944984
+    sourceAssetGUID: a677a443f9020c745adaa75422d4e108
+    buildTimeAssetPath: Packages/com.llealloo.audiolink/Runtime/Resources/tex_ResetIcon.png
+  - fileID: 93
+    classID: 28
+    packedSize: 2497848
+    offset: 33343248
+    sourceAssetGUID: ad471ed7ada740a4cb23df3cc6b0b7ea
+    buildTimeAssetPath: Assets/Import/textures/belt_m_baseColor_9.png
+  - fileID: 94
+    classID: 28
+    packedSize: 626432
+    offset: 35841096
+    sourceAssetGUID: afd813effc341ba4ca5818fed16d9887
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/textures/M_chair_posters_baseColor_15.png
+  - fileID: 95
+    classID: 28
+    packedSize: 1398256
+    offset: 36467528
+    sourceAssetGUID: b0e0353ae14dadb4eb45b55294ce1734
+    buildTimeAssetPath: Packages/com.llealloo.audiolink/Runtime/Resources/tex_GainIcon.png
+  - fileID: 96
+    classID: 28
+    packedSize: 626424
+    offset: 37865784
+    sourceAssetGUID: b9224197d45100f439d742d6ceacbe14
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/textures/M_lamps_baseColor_5.png
+  - fileID: 97
+    classID: 28
+    packedSize: 158572
+    offset: 38492208
+    sourceAssetGUID: ba8c8c13c659093458a0c865203e5876
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/textures/M_ground_baseColor_31.png
+  - fileID: 98
+    classID: 28
+    packedSize: 158572
+    offset: 38650784
+    sourceAssetGUID: c043d13efbc35f942ba8927b1a0e97fb
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/textures/M_chimney_baseColor_26.png
+  - fileID: 99
+    classID: 28
+    packedSize: 158588
+    offset: 38809360
+    sourceAssetGUID: c0ddf2ab70c698241b9ffa9848f04268
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/textures/tree_lab_classM_birch_stable_baseColor_6.png
+  - fileID: 100
+    classID: 28
+    packedSize: 626436
+    offset: 38967952
+    sourceAssetGUID: cdcda648b41693d43b93be44202098ba
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/textures/M_dog_house_trashcan_baseColor_8.png
+  - fileID: 101
+    classID: 28
+    packedSize: 158568
+    offset: 39594392
+    sourceAssetGUID: ce7456307ba7d9841b8801f2c3b77bb2
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/textures/M_rocks_baseColor_13.png
+  - fileID: 102
+    classID: 28
+    packedSize: 158568
+    offset: 39752960
+    sourceAssetGUID: d113a9ef55ec50f418cb973dbd63d9be
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/textures/M_roof_baseColor_21.png
+  - fileID: 103
+    classID: 28
+    packedSize: 1398260
+    offset: 39911528
+    sourceAssetGUID: d2600747f36d54842b15cd3a78339684
+    buildTimeAssetPath: Packages/com.llealloo.audiolink/Runtime/Resources/tex_AutoGainIcon.png
+  - fileID: 104
+    classID: 28
+    packedSize: 158584
+    offset: 41309792
+    sourceAssetGUID: d6b39201c5fb6174fa8707f52ca312d9
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/textures/maple_treeM_maple_bark_baseColor_10.png
+  - fileID: 105
+    classID: 28
+    packedSize: 158576
+    offset: 41468376
+    sourceAssetGUID: d7cb4cfb12d60d3449b40a2c2bea4219
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/textures/gazebo3lambert3_baseColor_33.png
+  - fileID: 106
+    classID: 28
+    packedSize: 2497864
+    offset: 41626952
+    sourceAssetGUID: d8c9924445f7bdb4aa69d50865ead92d
+    buildTimeAssetPath: Assets/Import/textures/boots_m_metallicRoughness_7_metal.png
+  - fileID: 107
+    classID: 28
+    packedSize: 626428
+    offset: 44124816
+    sourceAssetGUID: de7f179f5528f4949893901abf3359bc
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/textures/M_windows_baseColor_7.png
+  - fileID: 108
+    classID: 28
+    packedSize: 158580
+    offset: 44751248
+    sourceAssetGUID: e15a71098d3f6874d85e45f6c871c674
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/textures/tree_lab_classleaves_baseColor_3.png
+  - fileID: 109
+    classID: 28
+    packedSize: 174908
+    offset: 44909832
+    sourceAssetGUID: e231e4c02c48ee14aafa55f7b1a843c1
+    buildTimeAssetPath: Assets/ExampleAssets/Textures/Drywall/Drywall_Normal.tif
+  - fileID: 110
+    classID: 28
+    packedSize: 128
+    offset: 45084744
+    sourceAssetGUID: e3265ab4bf004d28a9537516768c1c75
+    buildTimeAssetPath: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  - fileID: 111
+    classID: 28
+    packedSize: 158568
+    offset: 45084872
+    sourceAssetGUID: e6401eb0d23d18641b62075ea705218b
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/textures/M_fence_baseColor_16.png
+  - fileID: 112
+    classID: 28
+    packedSize: 174908
+    offset: 45243440
+    sourceAssetGUID: eae496078d11426448124eaf8b285e6b
+    buildTimeAssetPath: Assets/ExampleAssets/Textures/Drywall/Drywall_Albedo.tif
+  - fileID: 113
+    classID: 28
+    packedSize: 626428
+    offset: 45418352
+    sourceAssetGUID: eb62ded3bd44ec146b4280a8a8473a81
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/textures/M_desk_door_baseColor_22.png
+  - fileID: 114
+    classID: 28
+    packedSize: 158568
+    offset: 46044784
+    sourceAssetGUID: f4d4046fab9be064d95b9b0105a2d8d1
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/textures/dogM_dog_baseColor_2.png
+  - fileID: 115
+    classID: 28
+    packedSize: 158576
+    offset: 46203352
+    sourceAssetGUID: f62dbe7fd41f2ff42a82513fae4f45fe
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/textures/M_gazeebo_stone_baseColor_25.png
+  - fileID: 116
+    classID: 28
+    packedSize: 2497844
+    offset: 46361928
+    sourceAssetGUID: fe5dd5b3bb9fafe4b865e39507341cfe
+    buildTimeAssetPath: Assets/Import/textures/skin_m_normal_14.png
+  - fileID: 117
+    classID: 28
+    packedSize: 140
+    offset: 48859776
+    sourceAssetGUID: 2e498d1c8094910479dc3e1b768306a4
+    buildTimeAssetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+      SDF - Fallback.asset
+  - fileID: 118
+    classID: 28
+    packedSize: 1048716
+    offset: 48859920
+    sourceAssetGUID: 8f586378b4e144a9851e7b34d9b748ee
+    buildTimeAssetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+      SDF.asset
+  - fileID: 119
+    classID: 43
+    packedSize: 16248
+    offset: 49908640
+    sourceAssetGUID: 4276f8e5a6e38e4489e789cb514ad41f
+    buildTimeAssetPath: Packages/com.llealloo.audiolink/Runtime/Resources/ALControllerLogo.fbx
+  - fileID: 120
+    classID: 43
+    packedSize: 14868
+    offset: 49924888
+    sourceAssetGUID: 8146fe21555bc3a468964633c92fadac
+    buildTimeAssetPath: Assets/Import/meshes/Palace Guard_belt_m_0_3_0.asset
+  - fileID: 121
+    classID: 43
+    packedSize: 37988
+    offset: 49939760
+    sourceAssetGUID: 9c5e5e03b67999e4099b2ea14af8d3c0
+    buildTimeAssetPath: Assets/Import/meshes/Palace Guard_boots_m_0_2_0.asset
+  - fileID: 122
+    classID: 43
+    packedSize: 156868
+    offset: 49977752
+    sourceAssetGUID: 2e43c1eff5f22e94c8186547154bdc55
+    buildTimeAssetPath: Assets/Import/meshes/Palace Guard_coat_m_0_0_0.asset
+  - fileID: 123
+    classID: 43
+    packedSize: 18428
+    offset: 50134624
+    sourceAssetGUID: bc37a4d70eb6aa147b222270f442be1f
+    buildTimeAssetPath: Assets/Import/meshes/Palace Guard_pants_m_0_1_0.asset
+  - fileID: 124
+    classID: 43
+    packedSize: 303116
+    offset: 50153056
+    sourceAssetGUID: b0e31be8489cfc84e93c5fa6fc95119d
+    buildTimeAssetPath: Assets/Import/meshes/Palace Guard_skin_m_0_4_0.asset
+  - fileID: 125
+    classID: 43
+    packedSize: 59260
+    offset: 50456176
+    sourceAssetGUID: ead3f62e8060a3547948a616d12becb6
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_Flowers_M_flowers_0_36_0.asset
+  - fileID: 126
+    classID: 43
+    packedSize: 167912
+    offset: 50515440
+    sourceAssetGUID: 747c4f2e335e91645b9fc41078cf57c4
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_M_3props_0_1_0.asset
+  - fileID: 127
+    classID: 43
+    packedSize: 227084
+    offset: 50683352
+    sourceAssetGUID: 4c81ebf8ff4ccb044ade16ba17b6a1ab
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_M_bandsaw_0_13_0.asset
+  - fileID: 128
+    classID: 43
+    packedSize: 832
+    offset: 50910440
+    sourceAssetGUID: 3249722b55117b94f949c099b1e5bf31
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_M_base_0_32_0.asset
+  - fileID: 129
+    classID: 43
+    packedSize: 183516
+    offset: 50911272
+    sourceAssetGUID: 2673bcd5a4ced6f449a1d7c8933ac21b
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_M_car_0_12_0.asset
+  - fileID: 130
+    classID: 43
+    packedSize: 18352
+    offset: 51094792
+    sourceAssetGUID: 9ee7705231f47e4479e87fa20e543d2f
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_M_chair_posters_0_16_0.asset
+  - fileID: 131
+    classID: 43
+    packedSize: 1244
+    offset: 51113144
+    sourceAssetGUID: 9a7ea6055c1b9a24885cbe1b4e99c48d
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_M_chimney_0_27_0.asset
+  - fileID: 132
+    classID: 43
+    packedSize: 74840
+    offset: 51114392
+    sourceAssetGUID: f93503bfc9886a24cafbcfd27c03b319
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_M_desk_door_0_23_0.asset
+  - fileID: 133
+    classID: 43
+    packedSize: 53976
+    offset: 51189232
+    sourceAssetGUID: 9cd4a15305f87f349acbaf8e19ceb1e1
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_M_dirt_0_10_0.asset
+  - fileID: 134
+    classID: 43
+    packedSize: 60980
+    offset: 51243208
+    sourceAssetGUID: 0df97013af28efb48b814fcf9a53a6db
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_M_dog_house_trashcan_0_9_0.asset
+  - fileID: 135
+    classID: 43
+    packedSize: 165020
+    offset: 51304192
+    sourceAssetGUID: a8676ad798e8a0045a45eff15e2cd74d
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_M_fence_0_17_0.asset
+  - fileID: 136
+    classID: 43
+    packedSize: 6912
+    offset: 51469216
+    sourceAssetGUID: dc38a60433687b44d80494d38c3740b5
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_M_gazeebo_stone_0_26_0.asset
+  - fileID: 137
+    classID: 43
+    packedSize: 9304
+    offset: 51476128
+    sourceAssetGUID: e962477964e1dab44a1f4a21d7ebcfce
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_M_grass_0_31_0.asset
+  - fileID: 138
+    classID: 43
+    packedSize: 9152
+    offset: 51485432
+    sourceAssetGUID: 965a5fd23dde5224fb2d4883eaabcff3
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_M_ground_0_33_0.asset
+  - fileID: 139
+    classID: 43
+    packedSize: 5800
+    offset: 51494584
+    sourceAssetGUID: 46201fe02891cf549a5c1a0fc95682f7
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_M_house_concrete_0_29_0.asset
+  - fileID: 140
+    classID: 43
+    packedSize: 7788
+    offset: 51500384
+    sourceAssetGUID: d8362c95968b2e34baf5429bf6eb421e
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_M_house_wood_0_24_0.asset
+  - fileID: 141
+    classID: 43
+    packedSize: 7716
+    offset: 51508176
+    sourceAssetGUID: ba61a26c0f2657d46a9c5e3aa41f836b
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_M_house_wood_roof1_0_25_0.asset
+  - fileID: 142
+    classID: 43
+    packedSize: 263192
+    offset: 51515896
+    sourceAssetGUID: 7f0ecc9d24bba31408e6356c62e31179
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_M_lamps_0_6_0.asset
+  - fileID: 143
+    classID: 43
+    packedSize: 9732
+    offset: 51779088
+    sourceAssetGUID: 953933ba1593e6946ba775092b0ef41b
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_M_path_0_28_0.asset
+  - fileID: 144
+    classID: 43
+    packedSize: 66292
+    offset: 51788824
+    sourceAssetGUID: f499a9207691bb842a9bd229084ff6d8
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_M_rocks_0_14_0.asset
+  - fileID: 145
+    classID: 43
+    packedSize: 3948
+    offset: 51855120
+    sourceAssetGUID: dfc2e2a005cf9eb45af67fd985e22a09
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_M_roof_0_22_0.asset
+  - fileID: 146
+    classID: 43
+    packedSize: 316340
+    offset: 51859072
+    sourceAssetGUID: 808a423abcf7db44c93d0385d3f17e3b
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_M_shack_0_20_0.asset
+  - fileID: 147
+    classID: 43
+    packedSize: 140256
+    offset: 52175416
+    sourceAssetGUID: d7ea17aab57437e4ab5156ae4fb5fb42
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_M_unique_house_0_18_0.asset
+  - fileID: 148
+    classID: 43
+    packedSize: 2096
+    offset: 52315672
+    sourceAssetGUID: 1baa66a98b458d1488f2105c9614bd51
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_M_veranda_0_34_0.asset
+  - fileID: 149
+    classID: 43
+    packedSize: 147624
+    offset: 52317768
+    sourceAssetGUID: d41a818aca7da1f4cb6be2c54513c317
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_M_veranda_tileable_0_15_0.asset
+  - fileID: 150
+    classID: 43
+    packedSize: 3100
+    offset: 52465392
+    sourceAssetGUID: 081781e14ea776f4d9c53e3749342621
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_M_water_0_30_0.asset
+  - fileID: 151
+    classID: 43
+    packedSize: 29648
+    offset: 52468496
+    sourceAssetGUID: a72831e0841499e46a3833df0e808355
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_M_windows_0_8_0.asset
+  - fileID: 152
+    classID: 43
+    packedSize: 99280
+    offset: 52498144
+    sourceAssetGUID: 7e1b9afcd67002443940f322f11bb98f
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_dog_M_dog_0_2_0.asset
+  - fileID: 153
+    classID: 43
+    packedSize: 79512
+    offset: 52597424
+    sourceAssetGUID: e74eaa3483d8fe248a70fe3782ce2eae
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_gazebo3_M_bbq_0_5_0.asset
+  - fileID: 154
+    classID: 43
+    packedSize: 90560
+    offset: 52676936
+    sourceAssetGUID: 9d5271a03b242674ebb396c28d515467
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_gazebo3_M_bench_table_0_19_0.asset
+  - fileID: 155
+    classID: 43
+    packedSize: 844
+    offset: 52767496
+    sourceAssetGUID: fc0aa59e48523434d8043de67b4ac0d8
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_gazebo3_lambert3_0_35_0.asset
+  - fileID: 156
+    classID: 43
+    packedSize: 8072
+    offset: 52768344
+    sourceAssetGUID: 58f41ef82d72465498f38f4692886989
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_groundplain_M_bridge_0_21_0.asset
+  - fileID: 157
+    classID: 43
+    packedSize: 333744
+    offset: 52776416
+    sourceAssetGUID: c1fe466caf219ee48896ffad6ddd0060
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_maple_tree_M_maple_bark_0_11_0.asset
+  - fileID: 158
+    classID: 43
+    packedSize: 1254692
+    offset: 53110160
+    sourceAssetGUID: e1285dd77989add4e93ec91d547116f9
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_maple_tree_M_maple_leaves_0_0_0.asset
+  - fileID: 159
+    classID: 43
+    packedSize: 3112
+    offset: 54364856
+    sourceAssetGUID: eef0b0fc128f0884d9c2dad578977cff
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_standardSurface1_0_3_0.asset
+  - fileID: 160
+    classID: 43
+    packedSize: 213424
+    offset: 54367968
+    sourceAssetGUID: 6da56b471d234534d82303c122f779c3
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_tree_lab_class_M_birch_stable_0_7_0.asset
+  - fileID: 161
+    classID: 43
+    packedSize: 1209080
+    offset: 54581392
+    sourceAssetGUID: e2dd6c7ba6498294aa8ed8d5950ec186
+    buildTimeAssetPath: Assets/Prefabs/DAE_Diorama_-_Forest_loner/meshes/SM_Diorama_tree_lab_class_leaves_0_4_0.asset
+  - fileID: 162
+    classID: 43
+    packedSize: 36000
+    offset: 55790472
+    sourceAssetGUID: 30551ceebefd72a45a5b8fbfd833a806
+    buildTimeAssetPath: Packages/com.llealloo.audiolink/Runtime/Resources/ALController.fbx
+  - fileID: 163
+    classID: 48
+    packedSize: 22300
+    offset: 55826472
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 164
+    classID: 48
+    packedSize: 19328
+    offset: 55848776
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 165
+    classID: 48
+    packedSize: 18932
+    offset: 55868104
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 166
+    classID: 48
+    packedSize: 198872
+    offset: 55887040
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 167
+    classID: 48
+    packedSize: 10148
+    offset: 56085912
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 168
+    classID: 48
+    packedSize: 65096
+    offset: 56096064
+    sourceAssetGUID: 0b7113dea2069fc4e8943843eff19f70
+    buildTimeAssetPath: Packages/com.vrchat.base/Runtime/VRCSDK/Sample Assets/Shaders/Mobile/VRChat-Mobile-StandardLite.shader
+  - fileID: 169
+    classID: 48
+    packedSize: 27352
+    offset: 56161160
+    sourceAssetGUID: 28929610fa2fd744ab4d732914c32fb7
+    buildTimeAssetPath: Packages/com.llealloo.audiolink/Runtime/Shaders/AudioLinkUI.shader
+  - fileID: 170
+    classID: 48
+    packedSize: 7212
+    offset: 56188512
+    sourceAssetGUID: 2dcd9e0568e0a6f45b92c60ba2eb16a0
+    buildTimeAssetPath: Packages/com.vrchat.base/Runtime/VRCSDK/Sample Assets/Shaders/Mobile/VRChat-Mobile-Diffuse.shader
+  - fileID: 171
+    classID: 48
+    packedSize: 5664
+    offset: 56195728
+    sourceAssetGUID: 38d0d632969951049b3c541d62bc6d7c
+    buildTimeAssetPath: Packages/com.llealloo.audiolink/Runtime/Shaders/AudioLinkControllerLogo.shader
+  - fileID: 172
+    classID: 48
+    packedSize: 41404
+    offset: 56201392
+    sourceAssetGUID: 9ae8ad653e1d98940bbc79866b9170f3
+    buildTimeAssetPath: Packages/com.vrchat.base/Runtime/VRCSDK/Sample Assets/Shaders/VRChat-Sprites-Diffuse.shader
+  - fileID: 173
+    classID: 48
+    packedSize: 45016
+    offset: 56242800
+    sourceAssetGUID: eeb6fe504f591bf4ea463765ca36de5b
+    buildTimeAssetPath: Packages/com.llealloo.audiolink/Runtime/Shaders/AudioLinkController.shader
+  - fileID: 174
+    classID: 48
+    packedSize: 10716
+    offset: 56287816
+    sourceAssetGUID: fe393ace9b354375a9cb14cdbbc28be4
+    buildTimeAssetPath: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  - fileID: 175
+    classID: 74
+    packedSize: 2756
+    offset: 56298536
+    sourceAssetGUID: 670afc0b6f65b5a4ebbb6c675dbc0857
+    buildTimeAssetPath: Assets/Animations/TeleportAreaAnimation.anim
+  - fileID: 176
+    classID: 83
+    packedSize: 200
+    offset: 56301296
+    sourceAssetGUID: d5ae1ccffcfc6554886afbeccd5fb8ad
+    buildTimeAssetPath: Assets/Sounds/392016__supersciri__birds-near-the-comacchio-s-lake.wav
+  - fileID: 177
+    classID: 83
+    packedSize: 176
+    offset: 56301496
+    sourceAssetGUID: fe589648ddf5f7846ace28fd1420114d
+    buildTimeAssetPath: Assets/Sounds/460658_ddmyzik_story_logo.ogg
+  - fileID: 178
+    classID: 91
+    packedSize: 448
+    offset: 56301672
+    sourceAssetGUID: a4884422d49b81347850ace19ef6bb90
+    buildTimeAssetPath: Assets/Animations/TeleportFromArea.controller
+  - fileID: 179
+    classID: 115
+    packedSize: 100
+    offset: 146416
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 180
+    classID: 115
+    packedSize: 92
+    offset: 146520
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 181
+    classID: 115
+    packedSize: 96
+    offset: 146616
+    sourceAssetGUID: 4ecd63eff847044b68db9453ce219299
+    buildTimeAssetPath: Packages/com.vrchat.base/Runtime/VRCSDK/Plugins/VRCCore-Editor.dll
+  - fileID: 182
+    classID: 115
+    packedSize: 116
+    offset: 146712
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 183
+    classID: 115
+    packedSize: 108
+    offset: 146832
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 184
+    classID: 115
+    packedSize: 92
+    offset: 146944
+    sourceAssetGUID: 0cd44c1031e13a943bb63640046fad76
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Layout/CanvasScaler.cs
+  - fileID: 185
+    classID: 115
+    packedSize: 84
+    offset: 147040
+    sourceAssetGUID: 45115577ef41a5b4ca741ed302693907
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/Udon/UdonBehaviour.cs
+  - fileID: 186
+    classID: 115
+    packedSize: 84
+    offset: 147128
+    sourceAssetGUID: 4e29b1a8efbd4b44bb3f3716e73f07ff
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Button.cs
+  - fileID: 187
+    classID: 115
+    packedSize: 124
+    offset: 147216
+    sourceAssetGUID: 4f231c4fb786f3946a6b90b886c48677
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/EventSystem/InputModules/StandaloneInputModule.cs
+  - fileID: 188
+    classID: 115
+    packedSize: 84
+    offset: 147344
+    sourceAssetGUID: 67db9e8f0e2ae9c40bc1e2b64352a6b4
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Slider.cs
+  - fileID: 189
+    classID: 115
+    packedSize: 96
+    offset: 147432
+    sourceAssetGUID: 71c1514a6bd24e1e882cebbe1904ce04
+    buildTimeAssetPath: Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_FontAsset.cs
+  - fileID: 190
+    classID: 115
+    packedSize: 100
+    offset: 147528
+    sourceAssetGUID: 76c392e42b5098c458856cdf6ecaaaa1
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs
+  - fileID: 191
+    classID: 115
+    packedSize: 84
+    offset: 147632
+    sourceAssetGUID: 9085046f02f69544eb97fd06b6048fe2
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Toggle.cs
+  - fileID: 192
+    classID: 115
+    packedSize: 124
+    offset: 147720
+    sourceAssetGUID: bf61d954ecb803046953c666facfb904
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/Udon/ProgramSources/SerializedUdonProgramAsset.cs
+  - fileID: 193
+    classID: 115
+    packedSize: 100
+    offset: 147848
+    sourceAssetGUID: dc42784cf147c0c48a680349fa168899
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/GraphicRaycaster.cs
+  - fileID: 194
+    classID: 115
+    packedSize: 96
+    offset: 147952
+    sourceAssetGUID: f4688fdb7df04437aeb418b961361dc5
+    buildTimeAssetPath: Packages/com.unity.textmeshpro/Scripts/Runtime/TextMeshProUGUI.cs
+  - fileID: 195
+    classID: 115
+    packedSize: 84
+    offset: 148048
+    sourceAssetGUID: fe87c0e1cc204ed48ad3b37840f39efc
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Image.cs
+  - fileID: 196
+    classID: 115
+    packedSize: 92
+    offset: 148136
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 197
+    classID: 128
+    packedSize: 352462
+    offset: 56302120
+    sourceAssetGUID: e3265ab4bf004d28a9537516768c1c75
+    buildTimeAssetPath: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  - fileID: 198
+    classID: 114
+    packedSize: 10056
+    offset: 56654584
+    sourceAssetGUID: db804915b0dc3254d96d08c697112af0
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/111765fc3c115894590e1ac5449b5925.asset
+  - fileID: 199
+    classID: 114
+    packedSize: 6372
+    offset: 56664640
+    sourceAssetGUID: 05cece6189e659d4aa70a6e7e25f83dc
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/111a0c155a784e64fa9b6ad9244a55a4.asset
+  - fileID: 200
+    classID: 114
+    packedSize: 2828
+    offset: 56671016
+    sourceAssetGUID: 426840b36de6f7b4fbb22b3564f4ae62
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/566cc00e27d5822449529a3785eae366.asset
+  - fileID: 201
+    classID: 114
+    packedSize: 3340
+    offset: 56673848
+    sourceAssetGUID: 59db277ff684ae546965d8386af7332c
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/6fe72b5b63aa74c4090ff2ea53c6dcbb.asset
+  - fileID: 202
+    classID: 114
+    packedSize: 2580
+    offset: 56677192
+    sourceAssetGUID: f8d40239b36ea244397efa7c5b9fb72a
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/7c773696cbd7cbf44a2661a8a0f688f8.asset
+  - fileID: 203
+    classID: 114
+    packedSize: 2108
+    offset: 56679776
+    sourceAssetGUID: e96bd241ee9bbb24b820265ace9af36b
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/9dbdb56f82e78ca48aabb7401df70573.asset
+  - fileID: 204
+    classID: 114
+    packedSize: 2544
+    offset: 56681888
+    sourceAssetGUID: a2a7f79ae0f2e1946ac527f1215edcc6
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/a3e2e38fa8895a049bc32e492352f8c4.asset
+  - fileID: 205
+    classID: 114
+    packedSize: 17072
+    offset: 56684432
+    sourceAssetGUID: faebcebbf0881a74f9055e4bf1a399a6
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/c8df303ceb45ae84f85a11591f741734.asset
+  - fileID: 206
+    classID: 114
+    packedSize: 1328
+    offset: 56701504
+    sourceAssetGUID: 98d191f896f22e34d937c8f206c87a95
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/ca495d5383e95c845a5f9af1dda6b800.asset
+  - fileID: 207
+    classID: 114
+    packedSize: 2256
+    offset: 56702832
+    sourceAssetGUID: 8e66c1591db37db4b97dd11a05f1e3c4
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/dc89c668351f65b498c9f3249a79bbc0.asset
+  - fileID: 208
+    classID: 114
+    packedSize: 1520
+    offset: 56705088
+    sourceAssetGUID: a08a1737e72a2a544b6b821ad03a07cb
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/fb308a641250a1046a182b88cd3035c0.asset
+  - fileID: 209
+    classID: 114
+    packedSize: 1156
+    offset: 56706608
+    sourceAssetGUID: 2e498d1c8094910479dc3e1b768306a4
+    buildTimeAssetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+      SDF - Fallback.asset
+  - fileID: 210
+    classID: 114
+    packedSize: 28764
+    offset: 56707768
+    sourceAssetGUID: 8f586378b4e144a9851e7b34d9b748ee
+    buildTimeAssetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+      SDF.asset
+--- !u!1521398425 &2477007587567824924
+VideoBuildInfo:
+  m_VideoClipCount: 0
+  m_IsVideoModuleDisabled: 0
+--- !u!1126 &2614180858299582904
+PackedAssets:
+  m_ShortPath: CAB-d8f138ace1ab1537044091fa95e1e796
+  m_Overhead: 4032
+  m_Contents:
+  - fileID: 1
+    classID: 142
+    packedSize: 104
+    offset: 4032
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: AssetBundle Object
+  - fileID: 2
+    classID: 290
+    packedSize: 112
+    offset: 4136
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
+--- !u!1126 &7973581836757939542
+PackedAssets:
+  m_ShortPath: BuildPlayer-EmptyVRCProject00Scene.resource
+  m_Overhead: 0
+  m_Contents:
+  - fileID: 0
+    classID: 83
+    packedSize: 1286528
+    offset: 0
+    sourceAssetGUID: d5ae1ccffcfc6554886afbeccd5fb8ad
+    buildTimeAssetPath: Assets/Sounds/392016__supersciri__birds-near-the-comacchio-s-lake.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 123392
+    offset: 0
+    sourceAssetGUID: fe589648ddf5f7846ace28fd1420114d
+    buildTimeAssetPath: Assets/Sounds/460658_ddmyzik_story_logo.ogg
