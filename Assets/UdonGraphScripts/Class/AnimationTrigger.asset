@@ -26,12 +26,16 @@ MonoBehaviour:
     %SystemString, null\r\n    __instance_1: %UnityEngineTransform, this\r\n    __type_0:
     %SystemType, null\r\n    __instance_2: %UnityEngineGameObject, this\r\n    __Type_3:
     %SystemType, null\r\n    __tempValue_0: %SystemString, null\r\n    __tempValue_1:
-    %SystemString, null\r\n    __instance_5: %TMProTextMeshProUGUI, null\r\n    __value_1:
-    %SystemString, null\r\n    __format_1: %SystemString, null\r\n    __arg0_1: %SystemObject,
-    null\r\n    __arg1_0: %SystemObject, null\r\n    __arg2_0: %SystemObject, null\r\n   
-    __instance_6: %UnityEngineGameObject, this\r\n    ObjectToAnimate: %UnityEngineGameObject,
-    this\r\n    DisplayText: %TMProTextMeshProUGUI, null\r\n    Prefix: %SystemString,
-    null\r\n    DirectionText: %SystemString, null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n   
+    %SystemString, null\r\n    __object_1: %SystemObject, null\r\n    __Type_4: %SystemType,
+    null\r\n    __result_1: %SystemBoolean, null\r\n    __instance_6: %UnityEngineAudioSource,
+    null\r\n    __instance_5: %UnityEngineGameObject, this\r\n    __type_1: %SystemType,
+    null\r\n    __Type_5: %SystemType, null\r\n    __instance_7: %TMProTextMeshProUGUI,
+    null\r\n    __value_1: %SystemString, null\r\n    __format_1: %SystemString,
+    null\r\n    __arg0_1: %SystemObject, null\r\n    __arg1_0: %SystemObject, null\r\n   
+    __arg2_0: %SystemObject, null\r\n    __instance_8: %UnityEngineGameObject, this\r\n   
+    ObjectToAnimate: %UnityEngineGameObject, this\r\n    DisplayText: %TMProTextMeshProUGUI,
+    null\r\n    Prefix: %SystemString, null\r\n    DirectionText: %SystemString,
+    null\r\n    AudioSource: %UnityEngineAudioSource, null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n   
     .export _interact\r\n    \r\n    _interact:\r\n    \r\n        PUSH, __String_0\r\n       
     PUSH, __format_0\r\n        COPY\r\n        PUSH, ObjectToAnimate\r\n       
     PUSH, __instance_0\r\n        COPY\r\n        PUSH, __instance_0\r\n        PUSH,
@@ -44,7 +48,7 @@ MonoBehaviour:
     PUSH, __Type_0\r\n        PUSH, __type_0\r\n        COPY\r\n        PUSH, __instance_1\r\n       
     PUSH, __type_0\r\n        PUSH, __object_0\r\n        EXTERN, \"UnityEngineTransform.__GetComponent__SystemType__UnityEngineComponent\"\r\n       
     PUSH, __object_0\r\n        PUSH, __result_0\r\n        EXTERN, \"VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean\"\r\n       
-    PUSH, __result_0\r\n        JUMP_IF_FALSE, 0x00000260\r\n        PUSH, ObjectToAnimate\r\n       
+    PUSH, __result_0\r\n        JUMP_IF_FALSE, 0x00000324\r\n        PUSH, ObjectToAnimate\r\n       
     PUSH, __instance_2\r\n        COPY\r\n        PUSH, __Type_1\r\n        PUSH,
     __type_0\r\n        COPY\r\n        PUSH, __object_0\r\n        PUSH, __instance_3\r\n       
     COPY\r\n        PUSH, ObjectToAnimate\r\n        PUSH, __instance_2\r\n       
@@ -61,16 +65,25 @@ MonoBehaviour:
     __Boolean_1\r\n        COPY\r\n        PUSH, __value_0\r\n        JUMP_IF_FALSE,
     0x00000244\r\n        PUSH, __tempValue_0\r\n        PUSH, DirectionText\r\n       
     COPY\r\n        JUMP, 0x00000258\r\n        PUSH, __tempValue_1\r\n        PUSH,
-    DirectionText\r\n        COPY\r\n        JUMP, 0x00000260\r\n        JUMP, 0xFFFFFFFC\r\n   
+    DirectionText\r\n        COPY\r\n        PUSH, ObjectToAnimate\r\n        PUSH,
+    __instance_5\r\n        COPY\r\n        PUSH, __Type_4\r\n        PUSH, __type_1\r\n       
+    COPY\r\n        PUSH, __instance_5\r\n        PUSH, __type_1\r\n        PUSH,
+    __object_1\r\n        EXTERN, \"UnityEngineGameObject.__GetComponent__SystemType__UnityEngineComponent\"\r\n       
+    PUSH, __object_1\r\n        PUSH, __result_1\r\n        EXTERN, \"VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean\"\r\n       
+    PUSH, __result_1\r\n        JUMP_IF_FALSE, 0x0000031C\r\n        PUSH, ObjectToAnimate\r\n       
+    PUSH, __instance_5\r\n        COPY\r\n        PUSH, __Type_5\r\n        PUSH,
+    __type_1\r\n        COPY\r\n        PUSH, __object_1\r\n        PUSH, __instance_6\r\n       
+    COPY\r\n        PUSH, __object_1\r\n        EXTERN, \"UnityEngineAudioSource.__Play__SystemVoid\"\r\n       
+    JUMP, 0x0000031C\r\n        JUMP, 0x00000324\r\n        JUMP, 0xFFFFFFFC\r\n   
     \r\n    .export _start\r\n    \r\n    _start:\r\n    \r\n        PUSH, DisplayText\r\n       
-    PUSH, __instance_5\r\n        COPY\r\n        PUSH, Prefix\r\n        PUSH, __arg0_1\r\n       
-    COPY\r\n        PUSH, ObjectToAnimate\r\n        PUSH, __instance_6\r\n       
-    COPY\r\n        PUSH, __instance_6\r\n        PUSH, __arg1_0\r\n        EXTERN,
+    PUSH, __instance_7\r\n        COPY\r\n        PUSH, Prefix\r\n        PUSH, __arg0_1\r\n       
+    COPY\r\n        PUSH, ObjectToAnimate\r\n        PUSH, __instance_8\r\n       
+    COPY\r\n        PUSH, __instance_8\r\n        PUSH, __arg1_0\r\n        EXTERN,
     \"UnityEngineGameObject.__get_name__SystemString\"\r\n        PUSH, DirectionText\r\n       
     PUSH, __arg2_0\r\n        COPY\r\n        PUSH, __format_1\r\n        PUSH, __arg0_1\r\n       
     PUSH, __arg1_0\r\n        PUSH, __arg2_0\r\n        PUSH, __value_1\r\n       
     EXTERN, \"SystemString.__Format__SystemString_SystemObject_SystemObject_SystemObject__SystemString\"\r\n       
-    PUSH, __instance_5\r\n        PUSH, __value_1\r\n        EXTERN, \"TMProTextMeshProUGUI.__set_text__SystemString__SystemVoid\"\r\n       
+    PUSH, __instance_7\r\n        PUSH, __value_1\r\n        EXTERN, \"TMProTextMeshProUGUI.__set_text__SystemString__SystemVoid\"\r\n       
     JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
   assemblyError: 
   graphData:
@@ -237,7 +250,7 @@ MonoBehaviour:
       - 
       - 5937b474-b68e-46e3-9016-2d03d2d86170|0
       flowUIDs:
-      - 7505e64a-e1b7-402e-9c89-02a54f315814
+      - dec01df0-740d-4f5a-a3be-4cadc7a313b5
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: 
@@ -408,7 +421,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: Set_Variable
       uid: 076cc6de-13f3-4db2-abf8-7e412d48c15f
-      position: {x: 1689.6001, y: 152.8}
+      position: {x: 2300.9355, y: 119.99999}
       nodeUIDs:
       - 
       - 
@@ -424,7 +437,7 @@ MonoBehaviour:
           PublicKeyToken=b77a5c561934e089|False
     - fullName: Set_Variable
       uid: 76b2aa36-2fe0-49c7-8002-72a2a9210d17
-      position: {x: 1689.6001, y: 398.39996}
+      position: {x: 2300.9355, y: 365.59998}
       nodeUIDs:
       - 
       - 
@@ -440,7 +453,7 @@ MonoBehaviour:
           PublicKeyToken=b77a5c561934e089|False
     - fullName: Branch
       uid: 7505e64a-e1b7-402e-9c89-02a54f315814
-      position: {x: 1408.4001, y: 260.8}
+      position: {x: 2020.1357, y: 228}
       nodeUIDs:
       - 5937b474-b68e-46e3-9016-2d03d2d86170|0
       flowUIDs:
@@ -450,11 +463,91 @@ MonoBehaviour:
       - unityObjectValue: {fileID: 0}
         stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089|False
+    - fullName: Variable_UnityEngineAudioSource
+      uid: 377d95ec-5e37-4a5d-b425-4037822699c9
+      position: {x: 0, y: 0}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|AudioSource
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
+    - fullName: Get_Variable
+      uid: 9099696a-22ca-4f0e-9449-0d55293353fa
+      position: {x: 1629.4174, y: 559.1998}
+      nodeUIDs:
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|da134296-a723-4783-b9a8-9e2209ee5abf
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: UnityEngineGameObject.__GetComponent__SystemType__UnityEngineComponent
+      uid: 28cf6df9-f7af-460f-bb65-1128f6a0cf91
+      position: {x: 1629.4174, y: 647.9999}
+      nodeUIDs:
+      - 9099696a-22ca-4f0e-9449-0d55293353fa|0
+      - bcdb40e8-5bb0-4aa5-add7-ce98c618078e|0
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: Type_UnityEngineAudioSource
+      uid: bcdb40e8-5bb0-4aa5-add7-ce98c618078e
+      position: {x: 1629.4174, y: 775.1998}
+      nodeUIDs: []
+      flowUIDs: []
+      nodeValues: []
+    - fullName: UnityEngineAudioSource.__Play__SystemVoid
+      uid: be0f781d-f668-41ae-ae2b-afca81a57995
+      position: {x: 1887.0172, y: 445.59988}
+      nodeUIDs:
+      - 28cf6df9-f7af-460f-bb65-1128f6a0cf91|0
+      flowUIDs:
+      - 
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: Is_Valid
+      uid: 9de9cc1a-a149-4abb-a065-acb294dd9620
+      position: {x: 1629.4174, y: 445.59988}
+      nodeUIDs:
+      - 28cf6df9-f7af-460f-bb65-1128f6a0cf91|0
+      flowUIDs:
+      - be0f781d-f668-41ae-ae2b-afca81a57995
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: Block
+      uid: dec01df0-740d-4f5a-a3be-4cadc7a313b5
+      position: {x: 1331.2, y: 143.99994}
+      nodeUIDs: []
+      flowUIDs:
+      - 7505e64a-e1b7-402e-9c89-02a54f315814
+      - 9de9cc1a-a149-4abb-a065-acb294dd9620
+      nodeValues: []
     updateOrder: 0
   graphElementData:
   - type: 2
     uid: 27c27819-d791-4ecb-9457-53d78fafa50c
-    jsonData: '{"uid":"27c27819-d791-4ecb-9457-53d78fafa50c","layout":{"serializedVersion":"2","x":296.8000183105469,"y":60.0,"width":1665.60009765625,"height":898.3999633789063},"containedElements":["68011984-92e4-48da-8c75-707d95aaba03","5937b474-b68e-46e3-9016-2d03d2d86170","dbc36101-96fc-4113-8cdd-f7aaa474d5c6","8ff6ab7a-ccb0-42a6-a533-477cb7462a05","82e666ce-3898-40d2-8dc2-c591f8dbcc42","526abf59-5f07-4c36-9dab-eb03112572cc","c5ddb090-96b9-4c79-8187-fdea429e2147","10142135-69a7-4876-91f9-ae4eb8cfcbb4","029d1728-0e30-4637-a869-1b66c47d6742","2ff705b3-bb49-400b-9931-95de0ba6e323","a268e577-b3e7-4f6e-b933-f7271383523a","ced5d5c3-bcce-4417-a66a-d0eb70da89c5","ee5ebc52-239f-4a98-ac44-480dae7c9f4d","e4ff15a3-f162-420e-9d5d-7fe2e00d4afa","7505e64a-e1b7-402e-9c89-02a54f315814","76b2aa36-2fe0-49c7-8002-72a2a9210d17","076cc6de-13f3-4db2-abf8-7e412d48c15f"],"title":"Interact","layer":-1,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":1.0}}'
+    jsonData: '{"uid":"27c27819-d791-4ecb-9457-53d78fafa50c","layout":{"serializedVersion":"2","x":296.7999572753906,"y":60.00001525878906,"width":2276.800048828125,"height":898.3999633789063},"containedElements":["68011984-92e4-48da-8c75-707d95aaba03","5937b474-b68e-46e3-9016-2d03d2d86170","dbc36101-96fc-4113-8cdd-f7aaa474d5c6","8ff6ab7a-ccb0-42a6-a533-477cb7462a05","82e666ce-3898-40d2-8dc2-c591f8dbcc42","526abf59-5f07-4c36-9dab-eb03112572cc","c5ddb090-96b9-4c79-8187-fdea429e2147","10142135-69a7-4876-91f9-ae4eb8cfcbb4","029d1728-0e30-4637-a869-1b66c47d6742","2ff705b3-bb49-400b-9931-95de0ba6e323","a268e577-b3e7-4f6e-b933-f7271383523a","ced5d5c3-bcce-4417-a66a-d0eb70da89c5","ee5ebc52-239f-4a98-ac44-480dae7c9f4d","e4ff15a3-f162-420e-9d5d-7fe2e00d4afa","7505e64a-e1b7-402e-9c89-02a54f315814","76b2aa36-2fe0-49c7-8002-72a2a9210d17","076cc6de-13f3-4db2-abf8-7e412d48c15f","9099696a-22ca-4f0e-9449-0d55293353fa","28cf6df9-f7af-460f-bb65-1128f6a0cf91","bcdb40e8-5bb0-4aa5-add7-ce98c618078e","be0f781d-f668-41ae-ae2b-afca81a57995","9de9cc1a-a149-4abb-a065-acb294dd9620","dec01df0-740d-4f5a-a3be-4cadc7a313b5"],"title":"Interact","layer":-1,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":1.0}}'
   - type: 2
     uid: c845fc6b-af32-423c-ad9c-aef1daa41d0e
     jsonData: '{"uid":"c845fc6b-af32-423c-ad9c-aef1daa41d0e","layout":{"serializedVersion":"2","x":263.20013427734377,"y":-1302.3995361328125,"width":596.0,"height":808.7999267578125},"containedElements":["ba824c12-82b7-41cc-a903-6c93c0594284","f3f37582-aeed-430d-9b54-1f061ddebe0b","cd642270-215b-495b-81b6-3a983a35c771","b2131d12-0ead-414a-8d00-935c739489a8","24124bc2-9cd0-46ff-9a78-0f8970c79134","e20b4120-c1f3-4fd0-9d4b-bab577561ad6","9f37dc94-a71e-4e67-bd4b-47f0e73c7761","988a7f51-fc5d-4bfb-a2a7-65474ce704c3"],"title":"Update
