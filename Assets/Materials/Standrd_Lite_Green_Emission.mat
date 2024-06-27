@@ -7,11 +7,12 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: RedUnLit
+  m_Name: Standrd_Lite_Green_Emission
   m_Shader: {fileID: 4800000, guid: 0b7113dea2069fc4e8943843eff19f70, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _EMISSION
   m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
@@ -83,7 +84,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
-    - _EmissionColor: {r: 84.63894, g: 0, b: 0, a: 1}
+    - _Color: {r: 0, g: 1, b: 0.13605309, a: 1}
+    - _EmissionColor: {r: 0, g: 112.999626, b: 0, a: 1}
     - _SpecColor: {r: 1, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
