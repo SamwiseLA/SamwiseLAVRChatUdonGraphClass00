@@ -78,7 +78,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: Variable_UnityEngineGameObject
       uid: da134296-a723-4783-b9a8-9e2209ee5abf
-      position: {x: 0, y: 0}
+      position: {x: -540, y: -170}
       nodeUIDs:
       - 
       - 
